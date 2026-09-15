@@ -5,9 +5,13 @@
 A modification of Softendo's New Super Mario Forever 2012 fangame, that removes some of the annoying stuff and adds a few tweaks.
 Most of the game's low-qualityness is still untouched though; fixing that would be the job of a full-on remake.
 
-The project file, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.com) (!), can be found [on GitHub](https://github.com/CST1229/NSMFSlightlyFixed/).
+The project file, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.com) (!), can be found [on GitHub](https://github.com/CST1229/NSMF2012SlightlyFixed/).
 
 (This mod is virus-free, obviously.)
+
+## Download
+
+[See the Releases page.](https://github.com/CST1229/NSMF2012SlightlyFixed/releases)
 
 ## Controls
 (Can be rebinded in the options.)
@@ -34,7 +38,7 @@ The project file, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.com
 - Original game made by Softendo (not sure if you should visit the site though): https://www.softendo.com/mario-games/super-mario-3-mario-forever
 - Mod made by CST1229.
 
-If you find any bugs, DM me on Discord: `@cst1229` or [file an issue on the GitHub repo](https://github.com/CST1229/NSMFSlightlyFixed/issues).
+If you find any bugs, DM me on Discord: `@cst1229` or [file an issue on the GitHub repo](https://github.com/CST1229/NSMF2012SlightlyFixed/issues).
 For crashes, make sure to include the crash message too.
 
 ## Changelog
