@@ -32,7 +32,7 @@ The project files, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.co
 - Holding up allows any projectile or held object to be thrown higher.
 - Mario's hammers have a bigger radius, so hitting enemies is more consistent.
 
-# Modified physics toggle
+## Modified physics toggle
 
 You can now switch between Classic player physics and Modified player physics by pressing T. Classic physics preserves core physics (some minor QoL physics changes, such as vegetable pulling precedence, bigger hammer radius, being able to change direction in mid-air when shooting, are kept), while Modified physics essentially adds a new experience to the player physics. New Modified physics include:
 - Better player control, so skidding is less slippery and mid-air control is more precise.
