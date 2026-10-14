@@ -38,6 +38,7 @@ You can now switch between Classic player physics and Modified player physics by
 - Better player control, so skidding is less slippery and mid-air control is more precise.
 - You can freely switch directions at any time in mid-air. (Classic physics has direction switching, but only when shooting in the opposite direction)
 - You can crouch jump, also keeping any previous momentum.
+For the toggle to be kept between sessions, the game creates a modifiedphysics.ini file, which the game will then read on the next session and keep the toggle on if the value is 1, or off if it is 0.
 
 ## Credits
 - Original game and World Maker level editor made by Softendo.
