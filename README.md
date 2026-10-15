@@ -10,7 +10,7 @@ The project files, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.co
 
 ## Download
 
-[See the Releases page.](https://github.com/zikthegreen/NSMF2012SlightlyFixedPlus/releases/tag/Release).
+[See the Releases page.](https://github.com/zikthegreen/NSMF2012SlightlyFixedPlus/releases/tag/Release)
 
 ## Controls
 (Can be rebinded in the options.)
