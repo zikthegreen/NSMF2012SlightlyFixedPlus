@@ -1,17 +1,16 @@
-# New Super Mario Forever 2012: Slightly-Fixed Edition
+# New Super Mario Forever 2012: Slightly-Fixed Plus Edition
 
 ![Logo](./src/nsmfsfpluslogo.png)
 
-A modification of Softendo's New Super Mario Forever 2012 fangame, that removes some of the annoying stuff and adds a few tweaks.
-Most of the game's low-qualityness is still untouched though; fixing that would be the job of a full-on remake.
+This is the Plus Fork of CST1229's [New Super Mario Forever 2012: Slightly-Fixed Edition mod](https://github.com/CST1229/NSMF2012SlightlyFixed/). Built on version 1.1.1 (the latest version) of the mod, it contains most changes and improvements that version has upon the original game, while also adding many more. 
 
-The project file, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.com) (!), can be found [on GitHub](https://github.com/CST1229/NSMF2012SlightlyFixed/).
+The project files, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.com), can be found in the source code.
 
 (This mod is virus-free, obviously.)
 
 ## Download
 
-[See the Releases page.](https://github.com/CST1229/NSMF2012SlightlyFixed/releases)
+[See the Releases page.](https://github.com/zikthegreen/NSMF2012SlightlyFixedPlus/releases/tag/Release).
 
 ## Controls
 (Can be rebinded in the options.)
@@ -20,27 +19,29 @@ The project file, for use with [GameMaker 8.2](https://gm82.cherry-treehouse.com
 - X: Fire (there is no run button)
 
 ## Changes made from the original
-- The close button now works, and no longer opens the Softendo website. The old Esc key method still works to close the game.
-- Added an experimental widescreen mode (F7).
-- Added a song display that shows the original names of songs (F6). Currently doesn't have all of them (for missing ones, their filename will be displayed).
-- NSMF2012 World Maker (another Softendo game) has also been slightly-fixed and bundled in. The Edit Levels option on the main menu now launches it.
-- Configuration is now stored in a (binary) config.dat file instead of being hidden into an "image" file in the data folder (yeah, that's actually how Softendo did it).
-	- Save files are now stored in `savegame.dat`, `map_savegame.dat` and `maplevel_savegame.dat` (3 separate files due to Softendo spaghetti).
-	- If you want to try to copy your original saves over (compatibility not guaranteed but I haven't intentionally touched it).
-		- `savegame.dat` used to be `data/gfx/beetlee_h.jpg`
-		- `map_savegame.dat` used to be `data/gfx/beetlee.jpg`
-		- `maplevel_savegame.dat` used to be `data/gfx/beetlee_m.jpg`
-- The game's loading process is now faster and no longer uses a weird "encoding" thing that also writes random numbers to the data folder.
-- The game no longer auto-fullscreens when entering the title screen.
-- 2-8 is now a unique (unused) level instead of being a duplicate of 2-6.
+
+[Most changes in the original mod](https://github.com/CST1229/NSMF2012SlightlyFixed#changes-made-from-the-original), plus extra ones:
+
+- You can now pause the game by pressing P or Esc key. This also means Esc key no longer closes the game, but instead pauses it.
+- You can now double the game speed by pressing Q, accompanied by custom SFX, and will return to x1 speed when Q is pressed again.
+- Certain enemy objects and player projectiles that went through semisolids now actually land on them.
+- Pulling vegetables or special bricks takes precedence over shooting, meaning you no longer need to consume all your ammo before grabbing them.
+- You can kill the Boomer with the Fire key, which also allows another one to immediately be thrown after.
+- When moving in mid-air, you can switch directions by holding the opposite direction key and shooting, rather than always being locked to one direction in mid-air.
+- Most of the soundtracks have now been identified.
+- Holding up allows any projectile or held object to be thrown higher.
+- Mario's hammers have a bigger radius, so hitting enemies is more consistent.
+
+## Modified physics toggle
+
+You can now switch between Classic player physics and Modified player physics by pressing T. Classic physics preserves core physics (some minor QoL physics changes, such as vegetable pulling precedence, bigger hammer radius, being able to change direction in mid-air when shooting, are kept), while Modified physics essentially adds a new experience to the player physics. New Modified physics include:
+- Better player control, so skidding is less slippery and mid-air control is more precise.
+- You can freely switch directions at any time in mid-air. (Classic physics has direction switching, but only when shooting in the opposite direction)
+- You can crouch jump, also keeping any previous momentum.
+
+For the toggle to be kept between sessions, the game creates a modifiedphysics.ini file, which the game will then read on the next session and keep the toggle on if the value is 1, or off if it is 0.
 
 ## Credits
-- Original game made by Softendo (not sure if you should visit the site though): https://www.softendo.com/mario-games/super-mario-3-mario-forever
-- Mod made by CST1229.
-
-If you find any bugs, DM me on Discord: `@cst1229` or [file an issue on the GitHub repo](https://github.com/CST1229/NSMF2012SlightlyFixed/issues).
-For crashes, make sure to include the crash message too.
-
-## Changelog
-
-See [CHANGELOG.md](./CHANGELOG.md).
+- Original game and World Maker level editor made by Softendo.
+- Original mod made by CST1229.
+- Plus fork made by Zik the Green.
